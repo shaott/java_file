@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://www.jianshu.com/p/5681a1f0aad6 -->
+<html class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" style=""><script type="text/javascript" src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/1255494d3a"></script><script src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/nr-974.min.js"></script><script src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/push.js"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="chrome-extension://kajfghlhfkcocafkcjlajldicbikpgnp/catcher.js"><!-- script injected by Request Maker --></script><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"1255494d3a","applicationID":"15702971","transactionName":"e1daR0JWVV9RER9ZWkxdRxxDUVZE","queueTime":9,"applicationTime":124,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(u(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(2),u=t(3),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],p="api-",l=p+"ixn-";a(s,function(t,e){f[e]=o(p+e,!0,"api")}),f.addPageAction=o(p+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){d[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],2:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],3:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?u(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var s=f[m[n]];return s&&s.push([w,n,r,i]),i}function p(t,e){g[t]=l(t).concat(e)}function l(t){return g[t]||[]}function d(t){return s[t]=s[t]||o(n)}function v(t,e){c(t,function(t,n){e=e||"feature",m[n]=e,e in f||(f[e]=[])})}var g={},m={},w={on:p,emit:n,get:d,listeners:l,context:e,buffer:v};return w}function i(){return new r}var a="nr@context",u=t("gos"),c=t(2),f={},s={},p=e.exports=o();p.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!h++){var t=y.info=NREUM.info,e=s.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(m,function(e,n){t[e]||(t[e]=n)});var n="https"===g.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=t("handle"),c=t(2),f=window,s=f.document,p="addEventListener",l="attachEvent",d=f.XMLHttpRequest,v=d&&d.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:d,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(1);var g=""+location,m={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-974.min.js"},w=d&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:g,features:{},xhrWrappable:w};s[p]?(s[p]("DOMContentLoaded",i,!1),f[p]("load",r,!1)):(s[l]("onreadystatechange",o),f[l]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+  <meta http-equiv="Cache-Control" content="no-transform">
+    <meta name="description" content="引言    其实本来真的没打算写这篇文章，主要是LZ得记忆力不是很好，不像一些记忆力强的人，面试完以后，几乎能把自己和面试官的对话都给记下来。LZ自己当初面试完以后，除了记住一些聊过的知识点以外，具体的内容基本上忘得一干二净，所以写这篇文章其实是很有难度的。    但是，最近问LZ的人实在是太多了，为了避免重复回答，给自己省点力气，干脆就在这里统一回复了。    其实之前LZ写过一篇文章，但是那篇文章更多的是在讨论“面试前该不该刷题”这个话题，而这篇文章将会更加聚焦在面试前如何准备，以及工作当中如何学习这个话题上，而且会尽量写出一些干货。 第一个问题：阿里面试都问什么？ 这个是让LZ最头...">
+  <meta property="wb:webmaster" content="294ec9de89e7fadb">
+  <meta property="qc:admins" content="104102651453316562112116375">
+  <meta property="qc:admins" content="11635613706305617">
+  <meta property="qc:admins" content="1163561616621163056375">
+  <meta name="google-site-verification" content="cV4-qkUJZR6gmFeajx_UyPe47GW9vY6cnCrYtCHYNh4">
+  <meta name="google-site-verification" content="HF7lfF8YEGs1qtCE-kPml8Z469e2RHhGajy6JPVy5XI">
+  <meta http-equiv="mobile-agent" content="format=html5; url=http://www.jianshu.com/p/5681a1f0aad6">
+    <!--  Meta for Smart App Banner -->
+  <meta name="apple-itunes-app" content="app-id=888237539, app-argument=jianshu://notes/3799762">
+  <!-- End -->
+
+  <!--  Meta for Twitter Card -->
+  <meta content="summary" property="twitter:card">
+  <meta content="@jianshucom" property="twitter:site">
+  <meta content="阿里面试回来，想和Java程序员谈一谈" property="twitter:title">
+  <meta content="引言    其实本来真的没打算写这篇文章，主要是LZ得记忆力不是很好，不像一些记忆力强的人，面试完以后，几乎能把自己和面试官的对话都给记下来。LZ自己当初面试完以后，除了记住一些聊过的知识点以外，具体的内容基本上忘得一干二净，所以写这篇文章其实是很有难度的。    但是，最近问LZ的人实在是太多了，为了避免重复回答，给自己省点力气，干脆就在这里统一回复了。    其实之前LZ写过一篇文章，但是那篇文章更多的是在讨论“面试前该不该刷题”这个话题，而这篇文章将会更加聚焦在面试前如何准备，以及工作当中如何学习这个话题上，而且会尽量写出一些干货。 第一个问题：阿里面试都问什么？ 这个是让LZ最头..." property="twitter:description">
+  <meta content="http://www.jianshu.com/p/5681a1f0aad6" property="twitter:url">
+  <!-- End -->
+
+  <!--  Meta for OpenGraph -->
+  <meta property="fb:app_id" content="865829053512461">
+  <meta property="og:site_name" content="简书">
+  <meta property="og:title" content="阿里面试回来，想和Java程序员谈一谈">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="http://www.jianshu.com/p/5681a1f0aad6">
+  <meta property="og:description" content="引言    其实本来真的没打算写这篇文章，主要是LZ得记忆力不是很好，不像一些记忆力强的人，面试完以后，几乎能把自己和面试官的对话都给记下来。LZ自己当初面试完以后，除了记住一些聊过的知识点以外...">
+  <!-- End -->
+
+  <!--  Meta for Facebook Applinks -->
+  <meta property="al:ios:url" content="jianshu://notes/3799762">
+  <meta property="al:ios:app_store_id" content="888237539">
+  <meta property="al:ios:app_name" content="简书">
+
+  <meta property="al:android:url" content="jianshu://notes/3799762">
+  <meta property="al:android:package" content="com.jianshu.haruki">
+  <meta property="al:android:app_name" content="简书">
+  <!-- End -->
+
+  <title>阿里面试回来，想和Java程序员谈一谈 - 简书</title>
+  <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="hNc+x1uzDJucjkzAewdKCl7rNyQmX/FAKqsd5x19s6R9TR/9skzXnabXI5PjiMgUkPg5Q9K0qO+l0PlCKEUR/w==">
+  <!--[if lte IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="stylesheet" media="all" href="http://cdn-qn0.jianshu.io/assets/base-747a014721c5e8dadff37c275a4f3809.css">
+
+    <link rel="stylesheet" media="all" href="http://cdn-qn0.jianshu.io/assets/reading-note-cf8cd3159d6a16989a79274ab0963d55.css">
+  <link rel="stylesheet" media="all" href="http://cdn-qn0.jianshu.io/assets/base-read-mode-9b4a364d3a94a577397974de707192a5.css">
+  <script src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/modernizr-613ea63b5aa2f0e2a1946e9c28c8eedb.js"></script>
+  <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+  <!--[if IE 8]><link rel="stylesheet" media="all" href="http://cdn-qn0.jianshu.io/assets/scaffolding/for_ie-7f1c477ffedc13c11315103e8787dc6c.css" /><![endif]-->
+  <!--[if lt IE 9]><link rel="stylesheet" media="all" href="http://cdn-qn0.jianshu.io/assets/scaffolding/for_ie-7f1c477ffedc13c11315103e8787dc6c.css" /><![endif]-->
+  <link href="http://baijii-common.b0.upaiyun.com/icons/favicon.ico" rel="icon">
+      <link rel="apple-touch-icon-precomposed" href="http://cdn-qn0.jianshu.io/assets/apple-touch-icons/57-b426758a1fcfb30486f20fd073c3b8ec.png" sizes="57x57">
+      <link rel="apple-touch-icon-precomposed" href="http://cdn-qn0.jianshu.io/assets/apple-touch-icons/72-feca4b183b9d29fd188665785dc7a7f1.png" sizes="72x72">
+      <link rel="apple-touch-icon-precomposed" href="http://cdn-qn0.jianshu.io/assets/apple-touch-icons/76-ba757f1ad3421192ce7192170393d2b0.png" sizes="76x76">
+      <link rel="apple-touch-icon-precomposed" href="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/114-8dae53b3bcea3f06bb139e329d1edab3.png" sizes="114x114">
+      <link rel="apple-touch-icon-precomposed" href="http://cdn-qn0.jianshu.io/assets/apple-touch-icons/120-fa315ee0177dba4c55d4f66d4129b47f.png" sizes="120x120">
+      <link rel="apple-touch-icon-precomposed" href="http://cdn-qn0.jianshu.io/assets/apple-touch-icons/152-052f5799bec8fb3aa624bdc72ef5bd1d.png" sizes="152x152">
+
+<style type="text/css"></style></head>
+
+<body class="post output zh cn win reader-day-mode reader-font2" data-js-module="note-show" data-locale="zh-CN" style="">
+  
+  <div class="navbar navbar-jianshu shrink">
+  <div class="dropdown">
+    <a class="dropdown-toggle logo" id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="javascript:void(0)">
+      简
+    </a>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+      <li><a href="http://www.jianshu.com/"><i class="fa fa-home"></i> 首页</a></li>
+      <li><a href="http://www.jianshu.com/collections"><i class="fa fa-th"></i> 专题</a></li>
+    </ul>
+  </div>
+</div>
+<div class="navbar-user">
+  <a class="app-download-btn" href="http://www.jianshu.com/apps/download?utm_medium=top-sugg-down&utm_source=web-other-page">App下载</a>
+    <a class="login" data-signup-link="true" data-toggle="modal" href="http://www.jianshu.com/sign_up">
+      <i class="fa fa-user"></i> 注册
+</a>    <a class="login" data-signin-link="true" data-toggle="modal" href="http://www.jianshu.com/sign_in">
+      <i class="fa fa-sign-in"></i> 登录
+</a>    <a class="daytime set-view-mode pull-right" href="javascript:void(0)"><i class="fa fa-moon-o"></i></a>
+</div>
+<div class="navbar navbar-jianshu expanded">
+  <div class="dropdown">
+      <a class="active logo" role="button" data-original-title="个人主页" data-container="div.expanded" href="http://www.jianshu.com/">
+        <b>简</b><i class="fa fa-home"></i><span class="title">首页</span>
+</a>      <a data-toggle="tooltip" data-placement="right" data-original-title="专题" data-container="div.expanded" href="http://www.jianshu.com/collections">
+        <i class="fa fa-th"></i><span class="title">专题</span>
+</a>    <a class="ad-selector" href="http://www.jianshu.com/apps">
+      <i class="fa fa-mobile"></i><span class="title">下载手机应用</span>
+</a>    <div class="ad-container " style="display: none;">
+      <div class="ad-pop">
+        <img class="ad-logo" src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/114-8dae53b3bcea3f06bb139e329d1edab3.png" alt="114">
+        <p class="ad-title">简书</p>
+        <p class="ad-subtitle">交流故事，沟通想法</p>
+        <img class="ad-qrcode" src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/download-app-qrcode-053849fa25f9b44573ef8dd3c118a20f.png" alt="Download app qrcode">
+        <div>
+          <a class="ad-link" href="https://itunes.apple.com/cn/app/jian-shu/id888237539?ls=1&mt=8">iOS</a>·
+          <a class="ad-link" href="http://downloads.jianshu.io/apps/haruki/JianShu-1.11.4.apk">Android</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="nav-user">
+      <a href="http://www.jianshu.com/p/5681a1f0aad6#view-mode-modal" data-toggle="modal"><i class="fa fa-font"></i><span class="title">显示模式</span></a>
+
+      <a class="signin" data-signin-link="true" data-toggle="modal" data-placement="right" data-original-title="登录" data-container="div.expanded" href="http://www.jianshu.com/sign_in">
+        <i class="fa fa-sign-in"></i><span class="title">登录</span>
+</a>    </div>
+  </div>
+
+  
+    <div class="fixed-btn">
+    <a class="go-top hide-go-top" href="http://www.jianshu.com/p/5681a1f0aad6#"> <i class="fa fa-angle-up"></i></a>
+    <a class="qrcode" data-target="#bottom-qrcode" data-toggle="modal" href="javascript:void(0)"><i class="fa fa-qrcode"></i></a>
+    <a class="writer" href="http://www.jianshu.com/writer#/" data-toggle="tooltip" data-placement="left" title="" data-original-title="写篇文章"><i class="fa fa-pencil"></i></a>
+    <!-- qrcode modal -->
+    <div id="bottom-qrcode" class="modal panel-modal hide fade" tabindex="-1" role="dialog" aria-hidden="true">
+      <h4>下载简书移动应用</h4>
+      <div class="panel-body"><img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/download-app-qrcode-053849fa25f9b44573ef8dd3c118a20f.png" alt="Download app qrcode"></div>
+    </div>
+  </div>
+
+
+  <div id="show-note-container">
+    
+<div class="post-bg" id="flag">
+  <div class="wrap-btn">
+    <!-- Notebook and collections button upper left -->
+      <div class="article-related pull-left">
+          <a class="collection-menu-btn" data-toggle="modal" data-target="#collection-menu" href="javascript:void(null);">
+            <i class="fa fa-th"></i>
+</a>          <a class="notebooks-menu-btn" data-toggle="modal" data-target="#notebooks-menu" href="javascript:void(null);"><i class="fa fa-list-ul"></i></a>
+        <div class="related-avatar-group activities"></div>
+      </div>
+    <!-- ******* -->
+
+    <a class="app-download-btn" href="http://www.jianshu.com/apps/download?utm_medium=top-sugg-down&utm_source=note-show">App下载</a>
+  <a class="login" data-signup-link="true" data-toggle="modal" href="http://www.jianshu.com/sign_up">
+    <i class="fa fa-user"></i> 注册
+</a>  <a class="login" data-signin-link="true" data-toggle="modal" href="http://www.jianshu.com/sign_in">
+    <i class="fa fa-sign-in"></i> 登录
+</a>
+
+    <!-- Buttons upper right -->
+    <!-- ******* -->
+  </div>
+
+  <div class="container">
+    <!-- Article activities for width under 768px -->
+    <div class="related-avatar-group activities"></div>
+      <div class="article">
+        <div class="preview">
+          <div class="author-info">
+              <div class="btn btn-small btn-success follow">
+    <a data-signin-link="true" data-toggle="modal" href="http://www.jianshu.com/sign_in"><i class="fa fa-plus"></i>  <span>添加关注</span></a>
+  </div>
+
+            <a class="avatar" href="http://www.jianshu.com/users/1b5057877c64">
+              <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/1-cd1d6dd91a96ca16fafcc8896bbc7b32.jpg" alt="1">
+</a>            <span class="label">
+                作者
+            </span>
+            <a class="author-name blue-link" href="http://www.jianshu.com/users/1b5057877c64">
+              <span>挨踢江湖</span>
+</a>              <span data-toggle="tooltip" data-original-title="最后编辑于 2016.10.20 07:47">2016.05.03 19:09*</span>
+            <div>
+              <span>写了18675字</span>，<span>被247人关注</span>，<span>获得了138个喜欢</span>
+            </div>
+          </div>
+          <h1 class="title">阿里面试回来，想和Java程序员谈一谈</h1>
+          <div class="meta-top">
+            <span class="wordage">字数11033</span>
+            <span class="views-count">阅读19161</span>
+            <span class="comments-count">评论19</span>
+            <span class="likes-count">喜欢120</span>
+          </div>
+
+          <!-- Collection/Bookmark/Share for width under 768px -->
+          <div class="article-share"><a class="bookmark" data-signin-link="true" data-toggle="modal" href="http://www.jianshu.com/sign_in"> <i class="fa fa-bookmark-o"></i><span>收藏文章</span></a><span> <a href="javascript:void(null)" data-toggle="dropdown"><i class="fa fa-share-square-o"></i> 分享</a> <ul class="dropdown-menu arrow-top"> <li> <a href="javascript:void((function(s,d,e,r,l,p,t,z,c){var%20f='http://v.t.sina.com.cn/share/share.php?appkey=1881139527',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function%20a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else%20a();})(screen,document,encodeURIComponent,'','','http://cwb.assets.jianshu.io/notes/images/3799762/weibo/image_44fdce2004f4.jpg', '推荐 挨踢江湖 的文章《阿里面试回来，想和Java程序员谈一谈》（ 分享自 @简书 ）','http://www.jianshu.com/p/5681a1f0aad6','页面编码gb2312|utf-8默认gb2312'));"> <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/weibo.png"> </a> </li> <li> <a href="javascript:void(function(){var d=document,e=encodeURIComponent,s1=window.getSelection,s2=d.getSelection,s3=d.selection,s=s1?s1():s2?s2():s3?s3.createRange().text:'',r='http://www.douban.com/recommend/?url='+e('http://www.jianshu.com/p/5681a1f0aad6')+'&title='+e('阿里面试回来，想和Java程序员谈一谈')+'&sel='+e(s)+'&v=1',x=function(){if(!window.open(r,'douban','toolbar=0,resizable=1,scrollbars=yes,status=1,width=450,height=330'))location.href=r+'&r=1'};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})()"> <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/douban.png"> </a> </li> <li> <a href="javascript:void(function(){var d=document,e=encodeURIComponent,r='http://share.v.t.qq.com/index.php?c=share&a=index&url='+e('http://www.jianshu.com/p/5681a1f0aad6')+'&title='+e('推荐 挨踢江湖 的文章《阿里面试回来，想和Java程序员谈一谈》（ 分享自 @jianshuio ）'),x=function(){if(!window.open(r,'tweibo','toolbar=0,resizable=1,scrollbars=yes,status=1,width=600,height=600'))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();"> <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/tweibo.png"> </a> </li> <li> <a href="javascript:void(function(){var d=document,e=encodeURIComponent,r='http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url='+e('http://www.jianshu.com/p/5681a1f0aad6')+'&title='+e('推荐 挨踢江湖 的文章《阿里面试回来，想和Java程序员谈一谈》'),x=function(){if(!window.open(r,'qzone','toolbar=0,resizable=1,scrollbars=yes,status=1,width=600,height=600'))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();"> <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/qzone.png"> </a> </li> <li> <a href="javascript:void(function(){var d=document,e=encodeURIComponent,r='https://twitter.com/share?url='+e('http://www.jianshu.com/p/5681a1f0aad6')+'&text='+e('推荐 挨踢江湖 的文章《阿里面试回来，想和Java程序员谈一谈》（ 分享自 @jianshucom ）')+'&related='+e('jianshucom'),x=function(){if(!window.open(r,'twitter','toolbar=0,resizable=1,scrollbars=yes,status=1,width=600,height=600'))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();"> <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/twitter.png"> </a> </li> <li> <a href="javascript:void(function(){var d=document,e=encodeURIComponent,r='https://www.facebook.com/dialog/share?app_id=483126645039390&display=popup&href=http://www.jianshu.com/p/5681a1f0aad6',x=function(){if(!window.open(r,'facebook','toolbar=0,resizable=1,scrollbars=yes,status=1,width=450,height=330'))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();"> <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/facebook.png"> </a> </li> <li> <a href="javascript:void(function(){var d=document,e=encodeURIComponent,r='https://plus.google.com/share?url='+e('http://www.jianshu.com/p/5681a1f0aad6'),x=function(){if(!window.open(r,'google_plus','toolbar=0,resizable=1,scrollbars=yes,status=1,width=450,height=330'))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();"> <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/google_plus.png"> </a> </li> <li> <a href=""> <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/renren.png"> </a> </li> </ul></span></div>
+          <!-- -->
+
+          <div class="show-content"><h1>引言</h1><p>&nbsp; &nbsp; &nbsp; &nbsp;其实本来真的没打算写这篇文章，主要是LZ得记忆力不是很好，不像一些记忆力强的人，面试完以后，几乎能把自己和面试官的对话都给记下来。LZ自己当初面试完以后，除了记住一些聊过的知识点以外，具体的内容基本上忘得一干二净，所以写这篇文章其实是很有难度的。</p><p>&nbsp; &nbsp; &nbsp; &nbsp;但是，最近问LZ的人实在是太多了，为了避免重复回答，给自己省点力气，干脆就在这里统一回复了。</p><p>&nbsp; &nbsp; &nbsp; &nbsp;其实之前LZ写过一篇文章，但是那篇文章更多的是在讨论“面试前该不该刷题”这个话题，而这篇文章将会更加聚焦在面试前如何准备，以及工作当中如何学习这个话题上，而且会尽量写出一些干货。</p><h1>第一个问题：阿里面试都问什么？<br>
+</h1><p>这个是让LZ最头疼的一个问题，也是群里的猿友们问的最多的一个问题。<br></p><p>说实话，LZ只能隐约想起并发、JVM、分布式、TCP/IP协议这些个关键字，具体的问题真的是几乎都没记住。而且就算LZ记住了，也告诉你了，你也背会了，但LZ觉得，在面试中，你被问到一模一样问题的可能性依然很小。</p><p>甚至，就算你运气好被问到了，你也照着背下来了，也不一定就能对你的面试起到正面的作用，因为面试官万一多问一句，你可能就露馅了，那还不如干脆点说不会更好。</p><p>LZ参加的是阿里的社招面试，而社招不同于校招，问题的范围其实是很随机的。因为能参加一些比较知名的互联网公司社招的人，70%以上都会有个3-5年的经验。这倒不是说一两年经验的同学没有机会进这些公司，而是因为这种公司，大部分情况下只招一些比较资深的开发和应届生，而不招那些处于中间阶段的人。而1-2年经验的同学，往往就刚好处于这个尴尬的阶段。</p><p>对于能有3-5年经验的这部分人中，每个人的经历又都不同，所擅长的点也不一样，因此这就会导致每个人的问题和范围都不太一样。</p><p>很少说有哪个知名的互联网公司，比如BAT、京东、360、搜狐、网易等这些公司，其社招面试还有固定的问题和模式，让你可以像应届生面试一样，在面试前靠临时抱佛脚度过这一关。</p><p>大部分公司在社招的时候，不光是阿里，其它公司也都一样（因为LZ在一年多前也参加过很多其它知名互联网公司的面试，详情见《记录2015年年初跳槽的经历！》），基本上都分为两个阶段的提问。</p><p><b>第一个阶段是主语言本身以及它的高级特性，第二个阶段是讲述自己的项目，并在中间穿插着问题。</b></p><p>所以，LZ不妨就这两个阶段，谈谈社招面试的准备，而不是去把阿里面试的过程背一遍。说实话，LZ也确实记不住，所以不要再问LZ阿里面试都会问哪些问题了，你看看上面那个连接里的文章，也会发现，LZ里面也基本上没有写具体的问题，原因是一样的，真的记不住啊。（就是因为记忆力的问题，导致LZ从小偏科，文科成绩一直堪忧，-_-）</p><h1>社招面试如何准备<br>
+</h1><p>LZ会分为四个部分来谈论这个问题，由于LZ本身是Java出身，因此关于主语言的问题，都是与Java相关，其它语言的同学可以选择性忽略。此外，面试的时候一般面试官的问题都是环环相扣，逐渐深入的，这点在下面大家可以更明显的感受出来。<br></p><p><b>1、主语言本身以及它的高级特性。</b></p><p><b>主语言当然就是你平日里拿来赚钱的家伙。不要告诉LZ你没有主语言，你会N多种语言，或者是你精通N多种语言，你要非这么说的话，你可以来杭州试试，LZ保证不打死你，最多打残。</b></p><p><b>LZ的主语言很显然是Java，那么对于Java来说，它的语言本身以及它的高级特性，都有哪些比较容易在面试中问到呢？</b></p><p>一般情况下，主要有以下知识点很容易被问到。（PS：以下所列举的，都是一些Java相对而言比较高级一点的知识点，因为这里谈的是社招，而不是校招）</p><p><b>1）Java的数据结构相关的类实现原理，比如LinkedList，ArrayList，HashMap，TreeMap这一类的。以下简单模拟一个数据结构的连环炮。</b></p><p>比如，面试官先问你HashMap是不是有序的？</p><p>你肯定回答说，不是有序的。那面试官就会继续问你，有没有有顺序的Map实现类？</p><p>你如果这个时候说不知道的话，那这个问题就到此结束了。如果你说有TreeMap和LinkedHashMap。</p><p>那么面试官接下来就可能会问你，TreeMap和LinkedHashMap是如何保证它的顺序的？</p><p>如果你回答不上来，那么到此为止。如果你依然回答上来了，那么面试官还会继续问你，你觉得它们两个哪个的有序实现比较好？</p><p>如果你依然可以回答的话，那么面试官会继续问你，你觉得还有没有比它更好或者更高效的实现方式？</p><p>如果你还能说出来的话，那么就你所说的实现方式肯定依然可以问你很多问题。</p><p><b>以上就是一个面试官一步一步提问的例子。所以，如果你了解的不多，千万不要敷衍，因为可能下一个问题你就暴露了，还不如直接说不会，把这个问题结束掉，赶紧切换到你熟悉的领域。</b></p><p><b>2）Java并发包当中的类，它们都有哪些作用，以及它们的实现原理，这些类就是java.concurrent包下面的。与上面一样，咱们也简单的模拟一个并发包的连环炮。</b></p><p>比如面试官可能会先问你，如果想实现所有的线程一起等待某个事件的发生，当某个事件发生时，所有线程一起开始往下执行的话，有什么好的办法吗？</p><p>这个时候你可能会说可以用栅栏（Java的并发包中的CyclicBarrier），那么面试官就会继续问你，你知道它的实现原理吗？</p><p>如果你继续回答的话，面试官可能会继续问你，你还知道其它的实现方式吗？</p><p>如果你还能说出很多种实现方式的话，那么继续问你，你觉得这些方式里哪个方式更好？</p><p>如果你说出来某一个方式比较好的话，面试官依然可以继续问你，那如果让你来写的话，你觉得还有比它更好的实现方式吗？</p><p>如果你这个时候依然可以说出来你自己更好的实现方式，那么面试官肯定还会揪着这个继续问你。</p><p><b>为什么说面试的时候要引导面试官，原因就在这了。因为面试官的提问很多时候都是有迹可循的，你如果抓住了他的轨迹，能够猜到他下面很可能会问什么，那你在回答的时候就可以往你想要谈的方向去说。这样面试时就会显得更加从容，更加的游刃有余。</b></p><p><b>3）IO包和NIO包中的内容。这部分里面NIO会是重点，IO包大部分都会比较熟悉，因此可能会直接略过，直接问你NIO的内容。</b></p><p>IO包和NIO包的内容相对来说不是很多，首先NIO模型要熟悉，特别是其中的selector一定要非常清楚它的职责和实现原理。其实NIO的核心是IO线程池，一定要记住这个关键点。有的时候，面试官可能也会问你IO包的设计模式（装饰器模式），为什么要这样设计？</p><p>有的面试官还会问你有没有更好的设计，这个时候如果你不知道请果断说自己现在的水平有限，想不出来更好的设计，千万不要信口开河，随意YY。</p><p><b>4）Java的虚拟机的内容。这部分主要包括三部分，GC、类加载机制，以及内存。</b></p><p>一个<b>GC部分简单的连环炮。</b></p><p><b>面试官可以先问你什么时候一个对象会被GC？</b></p><p>接着继续问你为什么要在这种时候对象才会被GC？</p><p>接着继续问你GC策略都有哪些分类？</p><p>你如果说出来了，继续问你这些策略分别都有什么优劣势？都适用于什么场景？</p><p>你继续说出来了以后，给你举个实际的场景，让你选择一个GC策略？</p><p>你如果选出来了，继续问你，为什么要选择这个策略？</p><p><b>下面是关于类加载机制的简单连环炮。</b></p><p><b>首先肯定是先问你Java的类加载器都有哪些？</b></p><p>回答了这些以后，可能会问你每个类加载器都加载哪些类？</p><p>说完以后，可能会问你这些类加载之间的父子关系是怎样的？</p><p>你在回答的时候可能会提到双亲委派模型，那么可以继续问你什么是双亲委派模型？</p><p>你解释完了以后，可能会继续问你，为什么Java的类加载器要使用双亲委派模型？</p><p>你回答完以后，可能会继续问你如何自定义自己的类加载器，自己的类加载器和Java自带的类加载器关系如何处理？</p><p><b>再来一个关于内存的连环炮。</b></p><p><b>首先肯定就是问你内存分为哪几部分，这些部分分别都存储哪些数据？</b></p><p>然后继续问你一个对象从创建到销毁都是怎么在这些部分里存活和转移的？</p><p>接着可能会问你，内存的哪些部分会参与GC的回收？</p><p>完事以后，可能还会问你Java的内存模型是怎么设计的？</p><p>你回答了以后，还会继续问你为什么要这么设计？</p><p>问完以后，还可能会让你结合内存模型的设计谈谈volatile关键字的作用？</p><p>你在谈的时候，肯定会提到可见性，那么接着可见性这三个字，还可以继续问你并发的内容。</p><p><b>基本上Java语言本身以及语言稍微高级点的内容就是以上部分，如果你能把以上四部分了解的非常透彻，那基本上Java这部分就没啥问题了，因为光以上的内容就够你跟面试官聊很久了。你聊这些聊得久了，自然问你其它问题的时间就会短点。</b></p><p><b>你从LZ写这些问题的过程也应该能感受出来，很多时候，面试官都是顺着一条线一路问下去的，如果你觉得这条线你不熟悉的话，就要及时拐弯，引导面试官去问其它方面的问题。千万不要一直往下深入，直到自己跳不出来为止，那就尴了个尬了。</b></p><p><b>2、<b>讲述自己的项目，并在中间穿插着问题</b></b></p><p><b>这一部分是面试过程中必问，也是聊得最久的一个阶段。除非你前面的语言部分非常扎实，扎实到面试官问了一两个小时，依旧没有探出你对语言本身的了解到底有多深。否则的话，你一定逃不过自己的项目这一关，而且一般情况下聊得时间不会太短。</b></p><p><b>这一部分内容，一般的模式就是你自己去讲你做过的项目，然后面试官会冷不丁的让你去解释其中某一部分，比如让你解释当时为什么要这么做，或者问你现在觉得有没有更好的办法。而这些穿插的问题，大部分与你的项目所用到的技术有关。而你需要做的，就是充分、再充分的去总结自己做过的项目（尤其是最近的一两个项目），挖掘出一个甚至N个亮点，以备于到时候可以让面试官产生眼前一亮的感觉。如果你能达到这种效果的话，基本上离你成功就不远了。</b></p><p>这部分内容由于和每个人自己的经历息息相关，因此这里也没法列举可能问到的问题。这篇文章《<a href="http://www.cnblogs.com/zuoxiaolong/p/life48.html" target="_blank">程序员面经：面试前到底该不该刷题以及面试前该如何准备</a>》是LZ之前写的，里面大概讨论了下如何在面试前总结，有兴趣的可以去了解一下。</p><p><b>3、额外的加分项</b></p><p>上面两个阶段基本上是必问的，还有一些加分项。这些加分项中，有些内容面试官也会问你（比如TCP/IP协议、算法），但更多的是会先问你了解不了解，你了解的话再继续聊，不了解的话就直接略过了，不至于因为这种问题而直接把你打入地狱。</p><p>下面LZ列举一下这些加分项，如果可以的话，这些加分项还是要争取一下的。</p><p><b>1、计算机系统原理。</b></p><p><b>2、网络通信协议（TCP/IP，HTTP等）。</b></p><p><b>3、数据结构与算法。</b></p><p><b>4、著名开源项目的源码。</b></p><p><b>5、你自己有很棒的开源项目。</b></p><p><b>6、你的个人博客。</b></p><p><b>7、待评论区补充。</b></p><p>这几项当中，对于前1-3项，如果你之前就比较了解，只是由于时间问题忘记了的话，还是可以临时抱佛脚一下的。至于后面4-6项，就需要你日常的积累了，不是一时半会儿能做到的。如果你平日里没有积累，那么后面这三个加分项只能抛弃了。</p><p><b>4、与你职位相关的内容</b></p><p>其实这最后一项是对前面三项的补充，你应该尽量去主攻和你面试的职位相关的内容。比如你面试一个实时计算的职位，那么你的算法最好要厉害，对于著名的实时计算开源项目要熟悉，最好阅读过源码，而且还要对分布式系统有一定的见解。</p><p>因此，这个第4部分没有具体的内容，只是提醒你，如果你很明确自己的面试职位，最好在面试前准备的时候，尽量朝职位的需求方向靠拢，这样成功的可能性更大。</p><h1>对于Java程序猿学习的建议<br>
+</h1><p>这一部分其实也算是今天的重点，这一部分用来回答很多群里的朋友所问过的问题，那就是LZ你是如何学习Java的，能不能给点建议？<br></p><p>今天LZ是打算来点干货，因此咱们就不说一些学习方法和技巧了，直接来谈每个阶段要学习的内容甚至是一些书籍。这一部分的内容，同样适用于一些希望转行到Java的同学。</p><p>在大家看之前，LZ要先声明两点。</p><p>1、由于LZ本人是Java后端开发出身，因此所推荐的学习内容是Java Web和Java后端开发的路线，非Java Web和Java后端开发的同学请适当参考其学习思想即可，切勿照搬。</p><p>2、下面对于【第一部分】的推荐内容，目的是让你尽快成为一个可以参加工作的Java开发者，更适用于处于待业状态，准备转行Java的同学。如果你是在校学生，务必要在学好基础（比如计算机系统、算法、编译原理等等）的前提下，再考虑去进行下面的学习。</p><p><b>第一部分：对于尚未做过Java工作的同学，包括一些在校生以及刚准备转行Java的同学。</b></p><p><b>一、Java基础</b></p><p>首先去找一个Java的基础教程学一下，这里可以推荐一个地址，或者你也可以参照这个地址上去找相应的视频，地址为<a href="http://www.runoob.com/java/java-tutorial.html" target="_blank">http://www.runoob.com/java/java-tutorial.html</a>。</p><p>学习Java基础的时候，应该尽量多动手，很多时候，你想当然的事情，等你写出来运行一下，你就会发现不是这么回事儿，不信你就试试。</p><p>学完以上内容以后，你应该对Java有一个基本的了解了，你可以用Java语言写出一些简单的程序，并且你用的是最简单的编辑器，比如记事本。</p><p>这个时候，不要急于进入下一部分，留下几天好好写一些程序，尽可能熟悉这些基础内容。</p><p><b>二、Web开发</b></p><p>等你写上几天程序以后，你往往会比较迷茫，因为你写的东西似乎看起来毫无用处，比如实现一个简单的计算器，读取一个文件等。这个时候你就应该去学着写一些让你觉得有意思的东西了，所以你应该学习更多的知识。</p><p>这些内容主要是Web开发相关的内容，包括HTML/CSS/JS（前端页面）、Servlet/JSP（J2EE）以及Mysql（数据库）相关的知识。</p><p>它们的学习顺序应该是从前到后，因此最先学习的应该是HTML/CSS/JS（前端页面），这部分内容你可以去上面的那个runoob网站上找。你可以试着自己写一些页面，当然，你可以尽你最大的努力让它变得最漂亮。这部分内容对于后端Java来说，理论上不是特别重要，但至少要达到可以自己写出一些简单页面的水平。</p><p>接下来，你需要学习的是Servlet/JSP（J2EE）部分，这部分是Java后端开发必须非常精通的部分，因此这部分是这三部分中最需要花精力的，而且这个时候，你要学会使用开发工具，而不能再使用记事本了，可以选择eclipse。</p><p>当你下载安装好eclipse以后，请视频中的教程一步一步去学习，一定要多动手。关于Servlet/Jsp部分视频的选择，业界比较认可马士兵的视频，因此推荐给大家。当然了，LZ本人并没有看过他的视频，所以不好说的太绝对，如果大家自己有更好的选择，可以坚持自己的，不要被LZ干扰。</p><p>原本LZ也是打算出教学视频的，但是由于时间问题，还是决定放弃了。但是如果你看视频的过程中遇到了问题，欢迎来LZ的交流群提问，或者去斗鱼观看LZ的直播提出你的问题，直播地址和群号都在LZ的个人博客左侧。</p><p>最后一步，你需要学会使用数据库，mysql是个不错的入门选择，而且Java领域里主流的关系型数据库就是mysql。这部分一般在你学习Servlet/Jsp的时候，就会接触到的，其中的JDBC部分就是数据库相关的部分。你不仅要学会使用JDBC操作数据库，还要学会使用数据库客户端工具，比如navicat，sqlyog，二选一即可。</p><p><b>三、开发框架</b></p><p>当你学会以上内容以后，这个时候你还不足以参加工作，你还需要继续深造。公司里为了提高开发的效率，会使用一些Java Web框架，因此你还需要学习一些开发框架。</p><p>目前比较主流的是SSM框架，即spring、springmvc、mybatis。你需要学会这三个框架的搭建，并用它们做出一个简单的增删改查的Web项目。你可以不理解那些配置都是什么含义，以及为什么要这么做，这些留着后面你去了解。但你一定要可以快速的利用它们三个搭建出一个Web框架，你可以记录下你第一次搭建的过程，相信我，你一定会用到的。</p><p>还要提一句的是，你在搭建SSM的过程中，可能会经常接触到一个叫maven的工具。这个工具也是你以后工作当中几乎是必须要使用的工具，所以你在搭建SSM的过程中，也可以顺便了解一下maven的知识。在你目前这个阶段，你只需要在网络上了解一下maven基本的使用方法即可，一些高端的用法随着你工作经验的增加，会逐渐接触到的。</p><p>关于学习SSM框架的地址给大家推荐一个，这里面有视频，大家可以去观看，地址是<a href="http://edu.51cto.com/lesson/id-76468.html" target="_blank">http://edu.51cto.com/lesson/id-76468.html</a>。<b></b></p><p><b>四、找工作</b></p><p>当你完成开发框架的学习以后，你就该找工作了，在校的找实习，毕业的找全职。与此同时，在找工作的同时，你不应该停下你的学习，准确的说，是你在以后都不能停下学习。</p><p>上面这些内容你只是囫囵吞枣的学会了使用，你可以逐步尝试着去了解更多的东西，网络是你最重要的老师。</p><p><b>第二部分：对于参加工作一年以内的同学。</b></p><p>恭喜你，这个时候，你已经拥有了一份Java的工作。这个阶段是你成长极快的阶段，而且你可能会经常加班。</p><p>但是加班不代表你就可以松懈了，永远记得LZ说的那句话，从你入行那一刻起，你就要不停的学习。在这一年里，你至少需要看完《Java编程思想》这本书。这本书的内容是帮助你对于Java有一个更加深入的了解，是Java基础的升级版。</p><p>这本书很厚，当初看这本书，LZ花了整整三个月。正常速度的话，应该可以在半年左右看完。LZ这里不要求过高，只要你在一年以内把这本书看完即可。当然了，LZ所说的看完，是充分吸收，而不是读一遍就完事了，因此有些内容你可能会看不止一遍。</p><p>总而言之，这个阶段的核心学习思想就是，在工作中实践，并且更加深入的了解Java基础。</p><p><b>第二部分：对于参加工作1年到2年的同学。</b></p><p>这部分时间段的同学，已经对Java有了一个更加深入的了解。但是对于面向对象的体会可能还不够深刻，编程的时候还停留在完成功能的层次，很少会去考虑设计的问题。</p><p>于是这个时候，设计模式就来了。LZ当时看的是《大话设计模式》这本书，并且写了完整版的设计模式博客。因此，LZ要求大家，最多在你工作一年的时候，必须开始写博客，而设计模式就是你博客的开端。</p><p>请记住，LZ所提的基本都是最低要求，因此不要有任何松懈的心理，否则五年后，你不要去羡慕别人高于你的工资，也不要去羡慕别人进入了某公司。</p><p>这一年，你必须对于设计模式了如指掌，《大话设计模式》可以作为你的开端。当然了，你也可以去看LZ的个人博客去学习，地址是<a href="http://www.cnblogs.com/zuoxiaolong/p/pattern26.html" target="_blank">http://www.cnblogs.com/zuoxiaolong/p/pattern26.html</a>。</p><p>此外，设计模式并不是你这一年唯一的任务，你还需要看一些关于代码编写优化的书。比如《重构 改善既有代码的设计》，《effective java》。</p><p>总而言之，这个阶段，你的核心任务就是提高你的代码能力，要能写出一手优雅的代码。</p><p><b>第三部分：对于参加工作2年到3年的同学</b></p><p>有的同学在这个时候觉得自己已经很牛逼了，于是忍不住开始慢慢松懈。请记住，你还嫩的多。</p><p>这个阶段，有一本书是你必须看的，它叫做《深入理解Java虚拟机》。这本书绝对是Java开发者最重要的书，没有之一。在LZ眼里，这本书的重要性还要高于《Java编程思想》。</p><p>这本书的内容是帮助你全面的了解Java虚拟机，在这个阶段，你一定已经知道Java是运行在JVM之上的。所以，对于JVM，你没有任何理由不了解它。LZ之前有写过JVM系列的知识，可以去看一下，地址是<a href="http://www.cnblogs.com/zuoxiaolong/category/508918.html" target="_blank">http://www.cnblogs.com/zuoxiaolong/category/508918.html</a>。</p><p>另外，在过去2年的工作当中，你肯定或多或少接触过并发。这个时候，你应该去更加深入的了解并发相关的知识，而这部分内容，LZ比较推荐《Java并发编程实战》这本书。只要你把这本书啃下来了，并发的部分基本已经了解了十之六七。</p><p>与此同时，这个阶段你要做的事情还远不止如此。这个时候，你应该对于你所使用的框架应该有了更深入的了解，对于Java的类库也有了更深入的了解。因此，你需要去看一些JDK中的类的源码，也包括你所使用的框架的源码。</p><p>这些源码能看懂的前提是，你必须对设计模式非常了解。否则的话，你看源码的过程中，永远会有这样那样的疑问，这段代码为什么要这么写？为什么要定义这个接口，它看起来好像很多余？</p><p>由此也可以看出，这些学习的过程是环环相扣的，如果你任何一个阶段拉下来了，那么你就真的跟不上了，或者说是一步慢步步慢。而且LZ很负责的告诉你，LZ在这个阶段的时候，所学习的东西远多于这里所罗列出来的。因此千万不要觉得你已经学的很多了，LZ所说的这些都只是最低要求，不光是LZ，很多人在这个时间段所学习的内容都远超本文的范围。</p><p>如果你不能跟上节奏的话，若干年后，如果不是程序猿市场还不错的话，你很可能不仅仅是工资比别人低，公司没别人好，而是根本就找不到工作。</p><p>总而言之，这个阶段，你需要做的是深入了解Java底层和Java类库（比如并发那本书就是Java并发包java.concurrent的内容），也就是JVM和JDK的相关内容。而且还要更深入的去了解你所使用的框架，方式比较推荐看源码或者看官方文档。</p><p>另外，还有一种学习的方式，在2年这个阶段，也应该启用了，那就是造轮子。</p><p>不要听信那套“不要重复造轮子”的论调，那是公司为了节省时间成本编造出来的。重复造轮子或许对别人没有价值，因为你造的轮子可能早就有了，而且一般情况下你造出来的轮子还没有现存的好。但是对别人没有价值，不代表对你自己没有价值。</p><p>一个造轮子的过程，是一个从无到有的过程。这个过程可以对你进行系统的锻炼，它不仅考察你的编码能力，还考察你的框架设计能力，你需要让你的轮子拥有足够好的扩展性、健壮性。</p><p>而且在造轮子的过程中，你会遇到各种各样的难题，这些难题往往又是你学习的契机。当你把轮子造好的时候，你一定会发现，其实你自己收获了很多。</p><p>所以，这个阶段，除了上面提到的了解JVM、JDK和框架源码以外，也请你根据别人优秀的源码，去造一个任何你能够想象出来的轮子。</p><p><b>第四部分：参加工作3年到4年的同学</b></p><p>这个阶段的同学，提升已经是很难了，而且这个阶段的学习往往会比较多样化。</p><p>因为在前3年的过程中，你肯定或多或少接触过一些其它的技术，比如大数据、分布式缓存、分布式消息服务、分布式计算、软负载均衡等等。这些技术，你能精通任何一项，都将是你未来面试时巨大的优势，因此如果你对某一项技术感兴趣的话，这个时候可以深入去研究一下。这项技术不一定是你工作所用到的，但一定是相关的。</p><p>而且在研究一门新技术时，切忌朝三暮四。有的同学今天去整整大数据，搞搞Hadoop、hbase一类的东西。过不了一段时间，就觉得没意思，又去研究分布式缓存，比如redis。然后又过不了一段时间，又去研究分布式计算，比如整整Mapreduce或者storm。</p><p>结果到最后，搞得自己好像什么都会一样，在简历上大言不惭的写上大数据、分布式缓存、分布式计算都了解，其实任何一个都只是浮于表面。到时候面试官随便一问，就把你给识破了。</p><p>一定要记住，作为一个程序猿，平日里所接触的技术可能会很多，但是想要让一门技术成为你的优势，那么一定是你对这门技术的了解强过绝大多数人才行。</p><p>因此在这个阶段，你就不能再简单的去学习前3年的内容了，虽然前面的学习如果还不够深入的话依旧要继续，但这个时候你应该更多的考虑建立你的优势，也可以称为差异性。</p><p>差异性相信不难理解，就是让你自己变得与众不同。你前面三年的学习足够你成为一名基本合格的Java开发者，但你离成为一名优秀的Java开发者还有很大的距离。</p><p>所谓优秀，即能别人所不能。而你前三年所学习的内容，是很多做过几年的Java开发都能够掌握的。那么为了让自己有差异性，你就需要另辟蹊径，找一个方向深入研究下去，以期在将来，你能够成为这个领域的专家，比如分布式计算领域的专家，大数据领域的专家，并发领域的专家等等。</p><p>此外，你除了建立你的差异性之外，还要去弥补你基础上的不足，直到现在，LZ都没有提及基础知识。原因是基础是很枯燥无味的，学的太早不仅容易懵逼，而且懵逼的同时还容易产生心理阴影，以至于以后再不想去研究这些基础。但基础又是你深入研究一些领域时所必须掌握的，比如你去研究分布式计算，你不懂算法你玩个毛毛？比如你去做分布式缓存，你对计算机系统的内存不了解，你如何去做缓存？</p><p>如果你的基础本来就非常强，那么恭喜你，相信你在之前的工作中已经充分体会到了这些基础对你的帮助。但LZ相信大部分人的基础都很薄弱，哪怕是科班毕业的人，很多人也不敢说自己当初的基础学的多么强大，比如算法、计算机系统原理、编译原理这些。</p><p>但是每个人时间都是有限的，而且这些基础的书籍每一本读下来，没个一年半载的，还真拿不下来，因此还是要有所抉择的。虽然艺多不压身，但问题是艺多是有代价的，是需要你付出时间和精力的，而LZ个人更赞成在同等代价的情况下获取最大的收获。</p><p>首先，LZ比较推崇的基础书籍有三本，分别是《深入理解计算机系统》，《tcp/ip详解 卷一、二、三》，《数据结构与算法》。其中TCP/IP有三本书，但我们这里把这三本看成是一本大书。</p><p>这三本分别适合三种人，《深入理解计算机系统》比较适合一直从事Java Web开发和APP后端开发工作的人群。《tcp/ip详解 卷一、二、三》比较适合做网络编程的人群，比如你使用netty去开发的话，那么就要对TCP/IP有更深入的了解。而《数据结构与算法》这本书，则比较适合做计算研究工作的人，比如刚才提到的分布式计算。</p><p>另外，LZ要强调的是，这里所说的适合，并不是其它两本对你就没有用。比如你做Java Web和APP后端开发，《tcp/ip详解 卷一、二、三》这本书对你的作用也是很大的。这里只是分出个主次关系而已，你要是时间足够的话，能把三本都精读那当然最好不过了。但如果时间有限的话，那么就先挑对你帮助最大的书去读。</p><p>理论上来讲，这一年你能把这三本其中一本精读下来，就已经非常厉害了。有了基础，有了前面的工作经验，你就可以去开拓属于你的领域了。</p><p>在这一年里，一定要规划好自己的领域，建立好自己的优势，制造出差异性。如果你对自己的领域不够清晰的话，随着你工作的时间日益增多，你接触的技术会越来越多，这个时候，你很容易被淹死在技术的海洋里，看似接触的技术越来越多，会用的也越来越多，但你毫无优势。</p><p>有的同学可能会问，“LZ，我也不知道我的领域是什么啊？怎么办呢？”</p><p>对于这种人，LZ只想说，“卧槽，这还问我？要不干脆我替你学习得了，好不好？”</p><p><b>第五部分：参加工作4年到5年的同学</b></p><p>经过前面一年的历练，相信你在自己所钻研的领域已经有了自己一定的见解，这个时候，技术上你应该已经遇到瓶颈了。</p><p>这个时候不要着急提高自己的技术，已经是时候提高你的影响力了，你可以尝试去一些知名的公司去提高你的背景，你可以发表一些文章去影响更多的人。当然，你也可以去Github创建一个属于你的开源项目，去打造自己的产品。这次的开源项目不同于之前的造轮子，你这个时候是真的要去尽量尝试造出来真正对别人有价值的轮子。</p><p>技术学到这个阶段，很容易遇到瓶颈，而且往往达到一定程度后，你再深入下去的收效就真的微乎其微了，除非你是专门搞学术研究的。然而很可惜，大部分程序猿做不到这一步，那是科学家做的事情。</p><p>这个时候提高影响力不仅仅是因为技术上容易遇到瓶颈，更多的是影响力可以给你创造更多的机会。程序猿在某种程度上和明星很像，一个好的电视剧和电影就可以成就一批明星，程序猿有的时候也是，一个好的项目就可以成就一群程序猿。</p><p>比如国内几个脍炙人口的项目，像淘宝、支付宝、QQ、百度、微信等等。这每一个项目，都成就了一批程序猿。LZ敢说，这里面任何一个项目，如果你是它的核心开发，光是这样一个Title，就已经是你非常大的优势。更何况还不止如此，Title说到底也是个名头，更重要的是，这种项目在做的时候，对你的历练一定也是非常给力的。</p><p>而你如果想要参与这样的项目，除了靠运气之外，影响力也是很重要的一个手段。比如你在分布式计算领域有一定的影响力，那么如果有什么好的关于分布式计算的项目，对方就很可能会邀请你。就算人家不邀请你，你自己主动去面试的时候，对方如果知道你在这个领域的影响力，也肯定会起到很大的作用，而这个作用，甚至可能会超过你现在的技术能力。</p><p>所以，在这个阶段，你最大的任务是提高自己的影响力，为自己未来的十年工作生涯那一天做准备。如果你能够靠你的影响力和以前积累的技术，参与到一个伟大的项目当中，那么你后面的五年也就有着落了。</p><p>当然了，LZ现在满打满算，做程序猿也就4年半不到，因此关于4年到5年这一部分，LZ的见解不一定是对的，就算是对的，也不一定是适合任何人的。所以，希望大家自己有的判断力，去决定到底该如何度过这一年。</p><h1>结语</h1><p>本文到此就基本结束了，整篇文章很长，但其实主要就说了两部分内容，一个是社招面试的准备，一个是Java生涯的学习。<br></p><p>关于这两部分，LZ已经给出了自己的见解，但是还是那句话，每个人吸收知识的时候，都要有抽取精华，去除糟粕的能力。LZ所说的，可能有些是对的，有些是错的，有些是适合你的，有些是不太适合你的，你要自己能够判断。</p><p>其实你在生活和工作当中也是一样的，你身边的人形形色色，有的人你喜欢，有的人你很讨厌。但其实你喜欢的人也有缺点，你讨厌的人也有优点。你要学会从你讨厌的人身上学会他的优点，千万不要一棒子打死，这只会让你失去很多学习成长的机会。</p><p>好了，说了这么多了，就到此为止吧，希望本文可以帮助到作为程序猿或即将成为程序猿的你。</p><p>最后，如果你对阿里巴巴技术感兴趣，希望到阿里巴巴平台上从事技术相关的岗位，可以试试这里：<a href="http://www.jianshu.com/p/ef47df20e97a" target="_blank">招聘帖</a></p></div>
+        </div>
+      </div>
+
+      <div class="visitor_edit">
+        <!-- further readings -->
+        <div id="further-readings" data-user-slug="" data-user-nickname="">
+          <div id="further-reading-line" class="hide further-reading-line"></div>
+          <ul id="further-readings-list" class="reading-list unstyled"></ul>
+          <div id="further-reading-new" class="reading-edit">
+              <a data-signin-link="true" data-toggle="modal" href="http://www.jianshu.com/sign_in">
+                <i class="fa fa-plus-circle"></i> 推荐拓展阅读
+</a>            <div id="further-reading-form"></div>
+          </div>
+        </div>
+        <div class="pull-right">
+          <!-- copyright -->
+          <div class="author-copyright pull-right" data-toggle="tooltip" data-html="true" title="" data-original-title="转载请联系作者获得授权，并标注“简书作者”。">
+            <a><i class="fa fa-copyright"></i> 著作权归作者所有</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Reward / Support Author -->
+        <div class="support-author">
+          <p>如果你觉得文章对你有帮助，请鼓励我，谢谢~</p>
+            <a class="btn btn-pay" data-toggle="modal" href="http://www.jianshu.com/p/5681a1f0aad6#pay-modal">¥ 打赏支持</a>
+          <div class="avatar-list"><a href="http://www.jianshu.com/users/69d4061373d4" class="avatar" data-nickname="will4it" data-created-at="2016-10-09T06:18:33+08:00" data-original-title="" title=""> <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/10-f47ea4d685571bcb63f5b1ea99527d09.jpg"></a><a href="http://www.jianshu.com/users/3767af4f8a09" class="avatar" data-nickname="lwfwind" data-created-at="2016-09-01T07:52:19+08:00" data-original-title="" title=""> <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/3d069dd81b9c"></a><a href="javascript:void(0)" class="avatar" data-nickname="🇨🇳梁子̭⃟ོ" data-created-at="2016-08-19T14:29:50+08:00" data-original-title="" title=""> <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/0"></a><a href="http://www.jianshu.com/users/6e4c6553a7f9" class="avatar" data-nickname="stay4it" data-created-at="2016-08-17T11:44:28+08:00" data-original-title="" title=""> <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/db106859cce1.JPG"></a><a href="http://www.jianshu.com/users/e7039f5bdfef" class="avatar" data-nickname="孤魂小建" data-created-at="2016-08-12T10:41:57+08:00" data-original-title="" title=""> <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/be0a629e994c"></a><a class="avatar more" data-max-id="531022" href="javascript:void(null);"><i class="fa fa-ellipsis-h"></i></a></div>
+        </div>
+
+      <!-- article meta bottom -->
+      <div class="meta-bottom clearfix">
+        <!--  Like Button -->
+        <div class="like ">
+            <div class="like-button">
+              <a id="like-note" class="like-content" data-signin-link="true" data-toggle="modal" href="http://www.jianshu.com/sign_in">
+                <i class="fa fa-heart-o"></i>  喜欢
+</a></div>          <span id="likes-count" data-toggle="tooltip" data-placement="right" title="" data-original-title="查看所有喜欢的用户">120</span>        </div>
+        <!--  share group -->
+        <div class="share-group pull-right">
+          <a href="javascript:void((function(s,d,e,r,l,p,t,z,c){var%20f='http://v.t.sina.com.cn/share/share.php?appkey=1881139527',u=z||d.location,p=['&url=',e(u),'&title=',e(t||d.title),'&source=',e(r),'&sourceUrl=',e(l),'&content=',c||'gb2312','&pic=',e(p||'')].join('');function%20a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else%20a();})(screen,document,encodeURIComponent,'','','http://cwb.assets.jianshu.io/notes/images/3799762/weibo/image_44fdce2004f4.jpg', '推荐 挨踢江湖 的文章《阿里面试回来，想和Java程序员谈一谈》（ 分享自 @简书 ）','http://www.jianshu.com/p/5681a1f0aad6','页面编码gb2312|utf-8默认gb2312'));" data-name="weibo">
+            <i class="fa fa-weibo"></i><span>分享到微博</span>
+          </a>
+          <a data-toggle="modal" href="http://www.jianshu.com/p/5681a1f0aad6#share-weixin-modal" data-name="weixin">
+            <i class="fa fa-weixin"></i><span>分享到微信</span>
+          </a>
+          <div class="more">
+            <a href="javascript:void(0)" data-toggle="dropdown">更多分享<i class="fa fa-caret-down"></i></a>
+            <ul class="dropdown-menu arrow-top">
+                <li><a href="http://cwb.assets.jianshu.io/notes/images/3799762/weibo/image_44fdce2004f4.jpg" target="_blank" data-name="changweibo"><i class="fa fa-arrow-circle-o-down"></i> 下载长微博图片</a></li>
+                <li>
+                  <a data-name="tweibo" href="javascript:void(function(){var d=document,e=encodeURIComponent,r='http://share.v.t.qq.com/index.php?c=share&a=index&url='+e('http://www.jianshu.com/p/5681a1f0aad6')+'&title='+e('推荐 挨踢江湖 的文章《阿里面试回来，想和Java程序员谈一谈》（ 分享自 @jianshuio ）'),x=function(){if(!window.open(r,'tweibo','toolbar=0,resizable=1,scrollbars=yes,status=1,width=600,height=600'))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();">
+                    <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/tweibo.png" alt="Tweibo"> 分享到腾讯微博
+</a>                </li>
+                <li>
+                  <a data-name="qzone" href="javascript:void(function(){var d=document,e=encodeURIComponent,r='http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url='+e('http://www.jianshu.com/p/5681a1f0aad6')+'&title='+e('推荐 挨踢江湖 的文章《阿里面试回来，想和Java程序员谈一谈》'),x=function(){if(!window.open(r,'qzone','toolbar=0,resizable=1,scrollbars=yes,status=1,width=600,height=600'))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();">
+                    <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/qzone.png" alt="Qzone"> 分享到QQ空间
+</a>                </li>
+                <li>
+                  <a data-name="twitter" href="javascript:void(function(){var d=document,e=encodeURIComponent,r='https://twitter.com/share?url='+e('http://www.jianshu.com/p/5681a1f0aad6')+'&text='+e('推荐 挨踢江湖 的文章《阿里面试回来，想和Java程序员谈一谈》（ 分享自 @jianshucom ）')+'&related='+e('jianshucom'),x=function(){if(!window.open(r,'twitter','toolbar=0,resizable=1,scrollbars=yes,status=1,width=600,height=600'))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();">
+                    <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/twitter.png" alt="Twitter"> 分享到Twitter
+</a>                </li>
+                <li>
+                  <a data-name="facebook" href="javascript:void(function(){var d=document,e=encodeURIComponent,r='https://www.facebook.com/dialog/share?app_id=483126645039390&display=popup&href=http://www.jianshu.com/p/5681a1f0aad6',x=function(){if(!window.open(r,'facebook','toolbar=0,resizable=1,scrollbars=yes,status=1,width=450,height=330'))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();">
+                    <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/facebook.png" alt="Facebook"> 分享到Facebook
+</a>                </li>
+                <li>
+                  <a data-name="google_plus" href="javascript:void(function(){var d=document,e=encodeURIComponent,r='https://plus.google.com/share?url='+e('http://www.jianshu.com/p/5681a1f0aad6'),x=function(){if(!window.open(r,'google_plus','toolbar=0,resizable=1,scrollbars=yes,status=1,width=450,height=330'))location.href=r};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})();">
+                    <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/google_plus.png" alt="Google plus"> 分享到Google+
+</a>                </li>
+                <li>
+                  <a data-name="douban" href="javascript:void(function(){var d=document,e=encodeURIComponent,s1=window.getSelection,s2=d.getSelection,s3=d.selection,s=s1?s1():s2?s2():s3?s3.createRange().text:'',r='http://www.douban.com/recommend/?url='+e('http://www.jianshu.com/p/5681a1f0aad6')+'&title='+e('阿里面试回来，想和Java程序员谈一谈')+'&sel='+e(s)+'&v=1',x=function(){if(!window.open(r,'douban','toolbar=0,resizable=1,scrollbars=yes,status=1,width=450,height=330'))location.href=r+'&r=1'};if(/Firefox/.test(navigator.userAgent)){setTimeout(x,0)}else{x()}})()">
+                    <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/douban.png" alt="Douban"> 分享到豆瓣
+</a>                </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modals -->
+      <div id="share-weixin-modal" class="modal hide fade share-weixin-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+  </div>
+  <div class="modal-body" title="http://www.jianshu.com/p/5681a1f0aad6?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=reader_share&amp;utm_source=weixin">
+    <h5>打开微信“扫一扫”，打开网页后点击屏幕右上角分享按钮</h5>
+  <canvas width="170" height="170" style="display: none;"></canvas><img src="data:image/png;base64,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" style="display: block;"></div>
+</div>
+
+      
+      <div id="notebooks-menu" class="panel notebooks-menu arrow-top modal hide fade"><img class="loader-tiny" src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/tiny.gif" alt="Tiny"></div>
+      <div id="collection-menu" class="panel collection-menu arrow-top modal hide fade"><img class="loader-tiny" src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/tiny.gif" alt="Tiny"></div>
+      
+      <div id="likes-modal" class="modal modal_new support_list-modal fullscreen hide fade" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3>喜欢的用户</h3>
+      </div>
+      <div class="modal-body">
+        <ul class="unstyled users">
+        <li data-user-id="1754268"> <a class="avatar" href="http://www.jianshu.com/users/76119a079afd"> <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/105c87b80191"> </a> <a class="blue-link" href="http://www.jianshu.com/users/76119a079afd">简简单单郁郁寡欢</a> <span class="time">2016.10.26 11:29</span></li><li data-user-id="2795420"> <a class="avatar" href="http://www.jianshu.com/users/ae3b9d01a8a5"> <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/588e81240799"> </a> <a class="blue-link" href="http://www.jianshu.com/users/ae3b9d01a8a5">晚熟青年h</a> <span class="time">2016.10.25 23:20</span></li><li data-user-id="1931850"> <a class="avatar" href="http://www.jianshu.com/users/0576253d4cca"> <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/0821db898999.jpg"> </a> <a class="blue-link" href="http://www.jianshu.com/users/0576253d4cca">锣纳尔迪尼奥</a> <span class="time">2016.10.25 19:00</span></li><li data-user-id="26750"> <a class="avatar" href="http://www.jianshu.com/users/64c4d5e6f1cd"> <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/9cf4d184a8bd"> </a> <a class="blue-link" href="http://www.jianshu.com/users/64c4d5e6f1cd">我书读的少你可别骗我</a> <span class="time">2016.10.25 14:16</span></li><li data-user-id="1183364"> <a class="avatar" href="http://www.jianshu.com/users/98ae868be76b"> <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/0185502ccd88"> </a> <a class="blue-link" href="http://www.jianshu.com/users/98ae868be76b">watasihaz</a> <span class="time">2016.10.25 10:13</span></li><li data-user-id="1648724"> <a class="avatar" href="http://www.jianshu.com/users/5e2def0de3b8"> <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/14-75d944a989bbbd5b92a639698c9b4a3c.jpg"> </a> <a class="blue-link" href="http://www.jianshu.com/users/5e2def0de3b8">lushevol</a> <span class="time">2016.10.25 00:07</span></li><li data-user-id="3405413"> <a class="avatar" href="http://www.jianshu.com/users/5c6b05a0e68d"> <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/15-57a3e97082943073824a3529187f31f9.jpg"> </a> <a class="blue-link" href="http://www.jianshu.com/users/5c6b05a0e68d">南离朱雀</a> <span class="time">2016.10.24 14:49</span></li><li data-user-id="2038379"> <a class="avatar" href="http://www.jianshu.com/users/e2d07947c112"> <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/8f5b52e70c1b.jpg"> </a> <a class="blue-link" href="http://www.jianshu.com/users/e2d07947c112">crossoverJie</a> <span class="time">2016.10.24 10:13</span></li><li data-user-id="3016117"> <a class="avatar" href="http://www.jianshu.com/users/f0e080e3d08f"> <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/181d8d2654c0"> </a> <a class="blue-link" href="http://www.jianshu.com/users/f0e080e3d08f">GG死米大</a> <span class="time">2016.10.23 23:22</span></li><li data-user-id="704634"> <a class="avatar" href="http://www.jianshu.com/users/1e172bfdabcd"> <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/1-cd1d6dd91a96ca16fafcc8896bbc7b32.jpg"> </a> <a class="blue-link" href="http://www.jianshu.com/users/1e172bfdabcd">eagle_lwx</a> <span class="time">2016.10.23 22:39</span></li><li data-user-id="2188624"> <a class="avatar" href="http://www.jianshu.com/users/3d2c0832c5b5"> <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/bcaf28c10253"> </a> <a class="blue-link" href="http://www.jianshu.com/users/3d2c0832c5b5">3d2c0832c5b5</a> <span class="time">2016.10.23 22:29</span></li><li data-user-id="2091274"> <a class="avatar" href="http://www.jianshu.com/users/29e416dd743a"> <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/b17250e915f2.JPG"> </a> <a class="blue-link" href="http://www.jianshu.com/users/29e416dd743a">沙漠猎狐yxr</a> <span class="time">2016.10.23 08:19</span></li><li data-user-id="1198698"> <a class="avatar" href="http://www.jianshu.com/users/ba87d94ba0fb"> <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/74ffcdf0a6a4.png"> </a> <a class="blue-link" href="http://www.jianshu.com/users/ba87d94ba0fb">qiongleee</a> <span class="time">2016.10.21 22:56</span></li><li data-user-id="2786348"> <a class="avatar" href="http://www.jianshu.com/users/63f603d6a46a"> <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/da9895934c8c"> </a> <a class="blue-link" href="http://www.jianshu.com/users/63f603d6a46a">阳光下的云_林裕凯</a> <span class="time">2016.10.20 00:36</span></li><li data-user-id="2930655"> <a class="avatar" href="http://www.jianshu.com/users/aa5707a2fc04"> <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/15-57a3e97082943073824a3529187f31f9.jpg"> </a> <a class="blue-link" href="http://www.jianshu.com/users/aa5707a2fc04">兰亭竹</a> <span class="time">2016.10.20 00:06</span></li><a class="more hidden" data-max-id="38425269" href="javascript:void(null);"><i class="fa fa-ellipsis-h"></i></a></ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    <!-- Comments -->
+    <div id="comments" class="comment-list clearfix">
+        <div class="comment-head clearfix">
+          19条评论
+          <span class="order">
+            （
+            <a data-order="asc" class="active" href="javascript:void(0)">按时间正序</a>·
+            <a data-order="desc" href="javascript:void(0)">按时间倒序</a>·
+            <a data-order="likes_count" href="javascript:void(0)">按喜欢排序</a>
+            ）
+          </span>
+            <a class="goto-comment pull-right" data-signin-link="true" data-toggle="modal" href="http://www.jianshu.com/sign_in">
+              <i class="fa fa-pencil"></i>添加新评论
+</a>        </div>
+        <div id="comment-list">
+
+
+<div class="note-comment clearfix" id="comment-2251112">
+  <div class="content">
+      <div class="meta-top">
+        <a class="avatar" href="http://www.jianshu.com/users/9339c3f2fd67">
+          <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/42c1f208d28d.jpeg" alt="100">
+</a>        <p>
+          <a class="author-name" href="http://www.jianshu.com/users/9339c3f2fd67">justZERO</a>
+        </p>
+        <span class="reply-time">
+          <small>2 楼 · </small>
+          <a href="http://www.jianshu.com/p/5681a1f0aad6/comments/2251112#comment-2251112">2016.05.04 08:39</a></span>
+      </div>
+      <p>感谢，写的真详细啊。我是一名大一的雏鸟，现在也是在自学java，对于java的学习，时不时在一段时间后就会迷茫，看了这篇文章后感觉好多了，需要努力的方向也更清晰了。看lz一直称自己是lz，那我就火钳留名～</p>
+      <div class="comment-footer clearfix text-right">
+        <a data-id="2251112" class="like pull-left" href="javascript:void(0)">
+          <i class="fa fa-heart-o"></i>喜欢<span>(0)</span>
+</a>        
+
+        <a data-id="2251112" data-nickname="justZERO" class="reply" href="javascript:void(0)">回复</a>
+        
+        
+      </div>
+    <div class="child-comment-list hide">
+      
+      <div data-state="remaining-child-comments"></div>
+    </div>
+  </div>
+</div>
+
+<div class="note-comment clearfix" id="comment-2257462">
+  <div class="content">
+      <div class="meta-top">
+        <a class="avatar" href="http://www.jianshu.com/users/30c835fcd916">
+          <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/205b7f4442d5" alt="100">
+</a>        <p>
+          <a class="author-name" href="http://www.jianshu.com/users/30c835fcd916">木月师兄9527</a>
+        </p>
+        <span class="reply-time">
+          <small>3 楼 · </small>
+          <a href="http://www.jianshu.com/p/5681a1f0aad6/comments/2257462#comment-2257462">2016.05.04 19:17</a></span>
+      </div>
+      <p>好文。</p>
+      <div class="comment-footer clearfix text-right">
+        <a data-id="2257462" class="like pull-left" href="javascript:void(0)">
+          <i class="fa fa-heart-o"></i>喜欢<span>(0)</span>
+</a>        
+
+        <a data-id="2257462" data-nickname="木月师兄9527" class="reply" href="javascript:void(0)">回复</a>
+        
+        
+      </div>
+    <div class="child-comment-list hide">
+      
+      <div data-state="remaining-child-comments"></div>
+    </div>
+  </div>
+</div>
+
+<div class="note-comment clearfix" id="comment-3538616">
+  <div class="content">
+      <div class="meta-top">
+        <a class="avatar" href="http://www.jianshu.com/users/0656b61f4dd1">
+          <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/7b4fe9532e40.png" alt="100">
+</a>        <p>
+          <a class="author-name" href="http://www.jianshu.com/users/0656b61f4dd1">xiaofeig</a>
+        </p>
+        <span class="reply-time">
+          <small>4 楼 · </small>
+          <a href="http://www.jianshu.com/p/5681a1f0aad6/comments/3538616#comment-3538616">2016.08.09 16:50</a></span>
+      </div>
+      <p>加油加油。 <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/smirk_cat.png" alt=":smirk_cat:" title=":smirk_cat:" class="emoji" width="20" height="20"> </p>
+      <div class="comment-footer clearfix text-right">
+        <a data-id="3538616" class="like pull-left" href="javascript:void(0)">
+          <i class="fa fa-heart-o"></i>喜欢<span>(0)</span>
+</a>        
+
+        <a data-id="3538616" data-nickname="xiaofeig" class="reply" href="javascript:void(0)">回复</a>
+        
+        
+      </div>
+    <div class="child-comment-list hide">
+      
+      <div data-state="remaining-child-comments"></div>
+    </div>
+  </div>
+</div>
+
+<div class="note-comment clearfix" id="comment-3556026">
+  <div class="content">
+      <div class="meta-top">
+        <a class="avatar" href="http://www.jianshu.com/users/b6a501159ba8">
+          <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/a357ceec042c" alt="100">
+</a>        <p>
+          <a class="author-name" href="http://www.jianshu.com/users/b6a501159ba8">b6a501159ba8</a>
+        </p>
+        <span class="reply-time">
+          <small>5 楼 · </small>
+          <a href="http://www.jianshu.com/p/5681a1f0aad6/comments/3556026#comment-3556026">2016.08.10 17:09</a></span>
+      </div>
+      <p>唉，说多了都是套路= =，换工作也是艰难，楼主工作几年了，求带啊</p>
+      <div class="comment-footer clearfix text-right">
+        <a data-id="3556026" class="like pull-left" href="javascript:void(0)">
+          <i class="fa fa-heart-o"></i>喜欢<span>(1)</span>
+</a>        
+
+        <a data-id="3556026" data-nickname="b6a501159ba8" class="reply" href="javascript:void(0)">回复</a>
+        
+        
+      </div>
+    <div class="child-comment-list hide">
+      
+      <div data-state="remaining-child-comments"></div>
+    </div>
+  </div>
+</div>
+
+<div class="note-comment clearfix" id="comment-3579947">
+  <div class="content">
+      <div class="meta-top">
+        <a class="avatar" href="http://www.jianshu.com/users/cf062c144abd">
+          <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/07622c0715a0.jpg" alt="100">
+</a>        <p>
+          <a class="author-name" href="http://www.jianshu.com/users/cf062c144abd">droid</a>
+        </p>
+        <span class="reply-time">
+          <small>6 楼 · </small>
+          <a href="http://www.jianshu.com/p/5681a1f0aad6/comments/3579947#comment-3579947">2016.08.11 23:06</a></span>
+      </div>
+      <p>好文，同Java开发，不过资历尚浅。</p>
+      <div class="comment-footer clearfix text-right">
+        <a data-id="3579947" class="like pull-left" href="javascript:void(0)">
+          <i class="fa fa-heart-o"></i>喜欢<span>(0)</span>
+</a>        
+
+        <a data-id="3579947" data-nickname="droid" class="reply" href="javascript:void(0)">回复</a>
+        
+        
+      </div>
+    <div class="child-comment-list hide">
+      
+      <div data-state="remaining-child-comments"></div>
+    </div>
+  </div>
+</div>
+
+<div class="note-comment clearfix" id="comment-3593111">
+  <div class="content">
+      <div class="meta-top">
+        <a class="avatar" href="http://www.jianshu.com/users/24dd16fcd040">
+          <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/9bd0cd7f29c4" alt="100">
+</a>        <p>
+          <a class="author-name" href="http://www.jianshu.com/users/24dd16fcd040">24dd16fcd040</a>
+        </p>
+        <span class="reply-time">
+          <small>7 楼 · </small>
+          <a href="http://www.jianshu.com/p/5681a1f0aad6/comments/3593111#comment-3593111">2016.08.12 17:41</a></span>
+      </div>
+      <p>等你成为这个领域专家的时候,这个技术已经被淘汰了,楼主过于执着技术了,技术变的这么快.哪有时间等你学啊?过几年人工智能都能取代程序员了</p>
+      <div class="comment-footer clearfix text-right">
+        <a data-id="3593111" class="like pull-left" href="javascript:void(0)">
+          <i class="fa fa-heart-o"></i>喜欢<span>(0)</span>
+</a>        
+
+        <a data-id="3593111" data-nickname="24dd16fcd040" class="reply" href="javascript:void(0)">回复</a>
+        
+        
+      </div>
+    <div class="child-comment-list ">
+        <div class="child-comment" id="comment-3614247" data-id="3614247">
+    <p>
+      <a class="blue-link" href="http://www.jianshu.com/users/84cf577b6046">放肆的码农</a>：
+      <a href="http://www.jianshu.com/users/24dd16fcd040" class="maleskine-author" target="_blank" data-user-slug="24dd16fcd040">@24dd16fcd040</a> 那你的意思不用学习了
+    </p>
+    <div class="child-comment-footer text-right clearfix">
+      
+      <a data-id="3593111" data-nickname="放肆的码农" class="reply" href="javascript:void(null)">回复</a>
+      
+      
+      <span class="reply-time pull-left">
+        <a href="http://www.jianshu.com/p/5681a1f0aad6/comments/3614247#comment-3614247">2016.08.13 21:40</a></span>
+      
+    </div>
+  </div>
+  <div class="child-comment" id="comment-3681633" data-id="3681633">
+    <p>
+      <a class="blue-link" href="http://www.jianshu.com/users/f48f2a1d2030">SiriusTK</a>：
+      <a href="http://www.jianshu.com/users/24dd16fcd040" class="maleskine-author" target="_blank" data-user-slug="24dd16fcd040">@24dd16fcd040</a> 那你的意思不用学习了
+    </p>
+    <div class="child-comment-footer text-right clearfix">
+      
+      <a data-id="3593111" data-nickname="SiriusTK" class="reply" href="javascript:void(null)">回复</a>
+      
+      
+      <span class="reply-time pull-left">
+        <a href="http://www.jianshu.com/p/5681a1f0aad6/comments/3681633#comment-3681633">2016.08.17 13:30</a></span>
+      
+    </div>
+  </div>
+  <div class="child-comment" id="comment-3915009" data-id="3915009">
+    <p>
+      <a class="blue-link" href="http://www.jianshu.com/users/9339c3f2fd67">justZERO</a>：
+      <a href="http://www.jianshu.com/users/24dd16fcd040" class="maleskine-author" target="_blank" data-user-slug="24dd16fcd040">@24dd16fcd040</a> 人工智能未来可以取代很多专业，但它取代不了程序员。如果有一天它可以自己完美的升级程序，脱离开发人员的控制，那它取代的就是人类了！
+    </p>
+    <div class="child-comment-footer text-right clearfix">
+      
+      <a data-id="3593111" data-nickname="justZERO" class="reply" href="javascript:void(null)">回复</a>
+      
+      
+      <span class="reply-time pull-left">
+        <a href="http://www.jianshu.com/p/5681a1f0aad6/comments/3915009#comment-3915009">2016.08.30 07:10</a></span>
+      
+    </div>
+  </div>
+
+      <div data-state="remaining-child-comments"></div>
+        <div class="comment-toolbar clearfix">
+            <span>
+              还有 <span class="count">1</span> 条评论，
+              <a class="blue-link" data-id="3593111" data-max-id="5062307" data-action="load-children-comments" href="javascript:void(null)">展开查看</a>
+            </span>
+          <span class="pull-right">
+            <a data-id="3593111" class="reply" href="javascript:void(null)"><i class="fa fa-pencil"></i> 添加新回复</a>
+          </span>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="note-comment clearfix" id="comment-3636634">
+  <div class="content">
+      <div class="meta-top">
+        <a class="avatar" href="http://www.jianshu.com/users/88bb8d948273">
+          <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/29faa7853881" alt="100">
+</a>        <p>
+          <a class="author-name" href="http://www.jianshu.com/users/88bb8d948273">88bb8d948273</a>
+        </p>
+        <span class="reply-time">
+          <small>8 楼 · </small>
+          <a href="http://www.jianshu.com/p/5681a1f0aad6/comments/3636634#comment-3636634">2016.08.15 01:56</a></span>
+      </div>
+      <p>正在路上</p>
+      <div class="comment-footer clearfix text-right">
+        <a data-id="3636634" class="like pull-left" href="javascript:void(0)">
+          <i class="fa fa-heart-o"></i>喜欢<span>(0)</span>
+</a>        
+
+        <a data-id="3636634" data-nickname="88bb8d948273" class="reply" href="javascript:void(0)">回复</a>
+        
+        
+      </div>
+    <div class="child-comment-list hide">
+      
+      <div data-state="remaining-child-comments"></div>
+    </div>
+  </div>
+</div>
+
+<div class="note-comment clearfix" id="comment-3640332">
+  <div class="content">
+      <div class="meta-top">
+        <a class="avatar" href="http://www.jianshu.com/users/ea4d0448bf6f">
+          <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/13-8072fce67829ce128ba5df823205516c.jpg" alt="13">
+</a>        <p>
+          <a class="author-name" href="http://www.jianshu.com/users/ea4d0448bf6f">shawn340yy</a>
+        </p>
+        <span class="reply-time">
+          <small>9 楼 · </small>
+          <a href="http://www.jianshu.com/p/5681a1f0aad6/comments/3640332#comment-3640332">2016.08.15 10:26</a></span>
+      </div>
+      <p>满满的干货和总结，对我有很大的帮助，我到9月份就工作两年了，想去深圳找一份工作，我不知道定位应该定个什么位置，2年有点尴尬，投简历不知道投哪种，谈工资也不知道该要多少，迷茫</p>
+      <div class="comment-footer clearfix text-right">
+        <a data-id="3640332" class="like pull-left" href="javascript:void(0)">
+          <i class="fa fa-heart-o"></i>喜欢<span>(0)</span>
+</a>        
+
+        <a data-id="3640332" data-nickname="shawn340yy" class="reply" href="javascript:void(0)">回复</a>
+        
+        
+      </div>
+    <div class="child-comment-list hide">
+      
+      <div data-state="remaining-child-comments"></div>
+    </div>
+  </div>
+</div>
+
+<div class="note-comment clearfix" id="comment-3646406">
+  <div class="content">
+      <div class="meta-top">
+        <a class="avatar" href="http://www.jianshu.com/users/7a1b2b582d62">
+          <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/fd3634c846e7" alt="100">
+</a>        <p>
+          <a class="author-name" href="http://www.jianshu.com/users/7a1b2b582d62">7a1b2b582d62</a>
+        </p>
+        <span class="reply-time">
+          <small>10 楼 · </small>
+          <a href="http://www.jianshu.com/p/5681a1f0aad6/comments/3646406#comment-3646406">2016.08.15 16:21</a></span>
+      </div>
+      <p>您好，我想转载您的这篇文章，请问有什么要求吗？</p>
+      <div class="comment-footer clearfix text-right">
+        <a data-id="3646406" class="like pull-left" href="javascript:void(0)">
+          <i class="fa fa-heart-o"></i>喜欢<span>(0)</span>
+</a>        
+
+        <a data-id="3646406" data-nickname="7a1b2b582d62" class="reply" href="javascript:void(0)">回复</a>
+        
+        
+      </div>
+    <div class="child-comment-list hide">
+      
+      <div data-state="remaining-child-comments"></div>
+    </div>
+  </div>
+</div>
+
+<div class="note-comment clearfix" id="comment-3683602">
+  <div class="content">
+      <div class="meta-top">
+        <a class="avatar" href="http://www.jianshu.com/users/e153abbb9fb5">
+          <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/90ce8f0cb50e" alt="100">
+</a>        <p>
+          <a class="author-name" href="http://www.jianshu.com/users/e153abbb9fb5">Leader_MrYou</a>
+        </p>
+        <span class="reply-time">
+          <small>11 楼 · </small>
+          <a href="http://www.jianshu.com/p/5681a1f0aad6/comments/3683602#comment-3683602">2016.08.17 15:14</a></span>
+      </div>
+      <p>很不错的分析，之前对于学习还是比较迷茫不知道从哪个方面入手，现在知道了，，</p>
+      <div class="comment-footer clearfix text-right">
+        <a data-id="3683602" class="like pull-left" href="javascript:void(0)">
+          <i class="fa fa-heart-o"></i>喜欢<span>(0)</span>
+</a>        
+
+        <a data-id="3683602" data-nickname="Leader_MrYou" class="reply" href="javascript:void(0)">回复</a>
+        
+        
+      </div>
+    <div class="child-comment-list hide">
+      
+      <div data-state="remaining-child-comments"></div>
+    </div>
+  </div>
+</div>
+
+<div class="note-comment clearfix" id="comment-3714890">
+  <div class="content">
+      <div class="meta-top">
+        <a class="avatar" href="http://www.jianshu.com/users/7cf489540f92">
+          <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/fe5a5a58a7e2.jpg" alt="100">
+</a>        <p>
+          <a class="author-name" href="http://www.jianshu.com/users/7cf489540f92">Rxluo</a>
+        </p>
+        <span class="reply-time">
+          <small>12 楼 · </small>
+          <a href="http://www.jianshu.com/p/5681a1f0aad6/comments/3714890#comment-3714890">2016.08.19 09:46</a></span>
+      </div>
+      <p>看到马士兵老师，想起当初大三每日每夜的啃完他的视频，看过不少java视频，还是推荐马老师的。毕业两年，虽然现在搞iOS和Android。但当初从他那里学到了很多东西。</p>
+      <div class="comment-footer clearfix text-right">
+        <a data-id="3714890" class="like pull-left" href="javascript:void(0)">
+          <i class="fa fa-heart-o"></i>喜欢<span>(0)</span>
+</a>        
+
+        <a data-id="3714890" data-nickname="Rxluo" class="reply" href="javascript:void(0)">回复</a>
+        
+        
+      </div>
+    <div class="child-comment-list hide">
+      
+      <div data-state="remaining-child-comments"></div>
+    </div>
+  </div>
+</div>
+
+<div class="note-comment clearfix" id="comment-3952122">
+  <div class="content">
+      <div class="meta-top">
+        <a class="avatar" href="http://www.jianshu.com/users/3767af4f8a09">
+          <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/3d069dd81b9c" alt="100">
+</a>        <p>
+          <a class="author-name" href="http://www.jianshu.com/users/3767af4f8a09">lwfwind</a>
+        </p>
+        <span class="reply-time">
+          <small>13 楼 · </small>
+          <a href="http://www.jianshu.com/p/5681a1f0aad6/comments/3952122#comment-3952122">2016.09.01 07:53</a></span>
+      </div>
+      <p>写的很好</p>
+      <div class="comment-footer clearfix text-right">
+        <a data-id="3952122" class="like pull-left" href="javascript:void(0)">
+          <i class="fa fa-heart-o"></i>喜欢<span>(0)</span>
+</a>        
+
+        <a data-id="3952122" data-nickname="lwfwind" class="reply" href="javascript:void(0)">回复</a>
+        
+        
+      </div>
+    <div class="child-comment-list hide">
+      
+      <div data-state="remaining-child-comments"></div>
+    </div>
+  </div>
+</div>
+
+<div class="note-comment clearfix" id="comment-4923466">
+  <div class="content">
+      <div class="meta-top">
+        <a class="avatar" href="http://www.jianshu.com/users/488e15d9b0df">
+          <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/10-f47ea4d685571bcb63f5b1ea99527d09.jpg" alt="10">
+</a>        <p>
+          <a class="author-name" href="http://www.jianshu.com/users/488e15d9b0df">沫小五</a>
+        </p>
+        <span class="reply-time">
+          <small>14 楼 · </small>
+          <a href="http://www.jianshu.com/p/5681a1f0aad6/comments/4923466#comment-4923466">2016.10.18 16:39</a></span>
+      </div>
+      <p>写的很好啊，这么长的一篇文章，看完还想再看第二遍。 lz肯定用心写了。感谢，很有用</p>
+      <div class="comment-footer clearfix text-right">
+        <a data-id="4923466" class="like pull-left" href="javascript:void(0)">
+          <i class="fa fa-heart-o"></i>喜欢<span>(0)</span>
+</a>        
+
+        <a data-id="4923466" data-nickname="沫小五" class="reply" href="javascript:void(0)">回复</a>
+        
+        
+      </div>
+    <div class="child-comment-list hide">
+      
+      <div data-state="remaining-child-comments"></div>
+    </div>
+  </div>
+</div>
+
+<div class="note-comment clearfix" id="comment-5058184">
+  <div class="content">
+      <div class="meta-top">
+        <a class="avatar" href="http://www.jianshu.com/users/ecb00a3f321f">
+          <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/9742a5df519b" alt="100">
+</a>        <p>
+          <a class="author-name" href="http://www.jianshu.com/users/ecb00a3f321f">你就是_</a>
+        </p>
+        <span class="reply-time">
+          <small>15 楼 · </small>
+          <a href="http://www.jianshu.com/p/5681a1f0aad6/comments/5058184#comment-5058184">2016.10.24 02:49</a></span>
+      </div>
+      <p>THX</p>
+      <div class="comment-footer clearfix text-right">
+        <a data-id="5058184" class="like pull-left" href="javascript:void(0)">
+          <i class="fa fa-heart-o"></i>喜欢<span>(0)</span>
+</a>        
+
+        <a data-id="5058184" data-nickname="你就是_" class="reply" href="javascript:void(0)">回复</a>
+        
+        
+      </div>
+    <div class="child-comment-list hide">
+      
+      <div data-state="remaining-child-comments"></div>
+    </div>
+  </div>
+</div>
+
+<div class="note-comment clearfix" id="comment-5067153">
+  <div class="content">
+      <div class="meta-top">
+        <a class="avatar" href="http://www.jianshu.com/users/e2d07947c112">
+          <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/8f5b52e70c1b.jpg" alt="100">
+</a>        <p>
+          <a class="author-name" href="http://www.jianshu.com/users/e2d07947c112">crossoverJie</a>
+        </p>
+        <span class="reply-time">
+          <small>16 楼 · </small>
+          <a href="http://www.jianshu.com/p/5681a1f0aad6/comments/5067153#comment-5067153">2016.10.24 13:51</a></span>
+      </div>
+      <p>马上十一月份就两年了 还好今年运气不错进了一个相对来说还是大厂的互联网公司 在技术主管的建议下也在逐渐看源码了 博主的建议确实不错</p>
+      <div class="comment-footer clearfix text-right">
+        <a data-id="5067153" class="like pull-left" href="javascript:void(0)">
+          <i class="fa fa-heart-o"></i>喜欢<span>(0)</span>
+</a>        
+
+        <a data-id="5067153" data-nickname="crossoverJie" class="reply" href="javascript:void(0)">回复</a>
+        
+        
+      </div>
+    <div class="child-comment-list hide">
+      
+      <div data-state="remaining-child-comments"></div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+          <p class="signout-comment">
+    <a class="btn btn-info" data-signin-link="true" data-toggle="modal" href="http://www.jianshu.com/sign_in">
+      登录后发表评论
+</a>  </p>
+
+    </div>
+    <!-- -->
+
+  </div>
+
+  <script type="application/json" data-name="note">
+    {"id":3799762,"abbr":"引言    其实本来真的没打算写这篇文章，主要是LZ得记忆力不是很好，不像一些记忆力强的人，面试完以后，几乎能把自己和面试官的对话都给记下来。LZ自己当初面试完以后，除了记住一些聊过的知识点以外，具体的内容基本上忘得一干二净，所以写这篇文章其实是很有难度的。    但是，最近问LZ的人实在是太多了，为了避免重复回答，给自己省点力气，干脆就在这里统一回复了。    其实之前LZ写过一篇文章，但是那篇文章更多的是在讨论“面试前该不该刷题”这个话题，而这篇文章将会更加聚焦在面试前如何准备，以及工作当中如何学习这个话题上，而且会尽量写出一些干货。 第一个问题：阿里面试都问什么？ 这个是让LZ最头...","slug":"5681a1f0aad6","url":"http://www.jianshu.com/p/5681a1f0aad6","image_url":"http://cwb.assets.jianshu.io/notes/images/3799762/weibo/image_44fdce2004f4.jpg","wordage":11033,"has_further_readings":false,"views_count":19161,"likes_count":120,"comments_count":19,"rewards_total_count":6}
+  </script>
+
+  <script type="application/json" data-name="uuid">
+    {"uuid":"156cf4e6-5112-4267-a0c9-4a565c95874f"}
+  </script>
+
+  <script type="application/json" data-name="author">
+    {"id":2002001,"nickname":"挨踢江湖","slug":"1b5057877c64","public_notes_count":5,"followers_count":247,"total_likes_count":138,"is_current_user":false,"is_signed_author":false}
+  </script>
+
+
+    <div class="include-collection">
+      <div class="content">
+        <h5>被以下专题收入，发现更多相似内容：</h5>
+        <ul id="all-collections" class="unstyled collections-list">
+            <li>
+              <a class="avatar" href="http://www.jianshu.com/collection/6bc90d4942ff"><img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/程序员.jpg" alt="180"></a>              <div class="collections-info">
+                <h5>
+                  <a href="http://www.jianshu.com/collection/6bc90d4942ff">伪程序员</a>
+                </h5>
+                
+  <div class="btn btn-success follow">
+    <a data-signin-link="true" data-toggle="modal" href="http://www.jianshu.com/sign_in"><i class="fa fa-fw fa-plus"></i>  <span>添加关注</span></a>
+    <span>335</span>
+  </div>
+
+                <p class="description">生活在程序员圈中，确是伪程序员！</p>
+                <p>
+                  <a class="blue-link" href="http://www.jianshu.com/collection/6bc90d4942ff">595篇文章</a> · 335人关注
+                </p>
+              </div>
+            </li>
+            <li>
+              <a class="avatar" href="http://www.jianshu.com/collection/bf318b68fddc"><img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/java1.jpg" alt="180"></a>              <div class="collections-info">
+                <h5>
+                  <a href="http://www.jianshu.com/collection/bf318b68fddc">Java开发那些事</a>
+                </h5>
+                
+  <div class="btn btn-success follow">
+    <a data-signin-link="true" data-toggle="modal" href="http://www.jianshu.com/sign_in"><i class="fa fa-fw fa-plus"></i>  <span>添加关注</span></a>
+    <span>218</span>
+  </div>
+
+                <p class="description">分享Java开发相关的技术文章、工具资源、学习心得以及笔记。欢迎Javaer们踊跃投稿。小编会在12小时内审核通过，并与大家分享精选文章。</p>
+                <p>
+                  <a class="blue-link" href="http://www.jianshu.com/collection/bf318b68fddc">107篇文章</a> · 218人关注
+                </p>
+              </div>
+            </li>
+            <li>
+              <a class="avatar" href="http://www.jianshu.com/collection/c61d12c6012d"><img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/1399853-75e2bf4cf73f2f07.png" alt="180"></a>              <div class="collections-info">
+                <h5>
+                  <a href="http://www.jianshu.com/collection/c61d12c6012d">Java从入门到放弃</a>
+                </h5>
+                
+  <div class="btn btn-success follow">
+    <a data-signin-link="true" data-toggle="modal" href="http://www.jianshu.com/sign_in"><i class="fa fa-fw fa-plus"></i>  <span>添加关注</span></a>
+    <span>34</span>
+  </div>
+
+                <p class="description">专门收入Java相关的优质文章，期待你的投稿</p>
+                <p>
+                  <a class="blue-link" href="http://www.jianshu.com/collection/c61d12c6012d">19篇文章</a> · 34人关注
+                </p>
+              </div>
+            </li>
+        </ul>
+      </div>
+    </div>
+
+  <!-- Modal -->
+    <div class="modal pay-modal text-center hide fade" id="pay-modal">
+  <div class="modal-header clearfix">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+  </div>
+  <form id="new_reward" class="new_reward" target="_blank" action="http://www.jianshu.com/notes/3799762/rewards" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="hNc+x1uzDJucjkzAewdKCl7rNyQmX/FAKqsd5x19s6R9TR/9skzXnabXI5PjiMgUkPg5Q9K0qO+l0PlCKEUR/w==">
+    <div class="modal-body">
+      <a href="http://www.jianshu.com/users/1b5057877c64">
+        <div class="avatar"><img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/1-cd1d6dd91a96ca16fafcc8896bbc7b32.jpg" alt="1"></div>
+</a>      <p><i class="fa fa-quote-left pull-left"></i>如果你觉得文章对你有帮助，请鼓励我，谢谢~<i class="fa fa-quote-right pull-right"></i></p>
+      <div class="main-inputs text-left">
+        <div class="control-group">
+          <label for="reward_amount">打赏金额</label><i class="fa fa-yen"></i>
+          <input value="2.00" type="text" name="reward[amount_in_yuan]" id="reward_amount_in_yuan">
+        </div>
+        <div class="control-group message">
+          <textarea placeholder="给Ta留言" name="reward[message]" id="reward_message"></textarea>
+        </div>
+      </div>
+      <div class="choose-pay text-left">
+        <h5>选择支付方式：</h5>
+        <div>
+          <label for="reward_channel_alipay">
+            <div class="iradio_minimal checked" style="position: relative;"><input type="radio" value="alipay" checked="checked" name="reward[channel]" id="reward_channel_alipay" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
+            <span class="alipay-bg"></span>
+</label>
+          
+          <label for="reward_channel_wx_pub_qr">
+            <div class="iradio_minimal" style="position: relative;"><input type="radio" value="wx_pub_qr" name="reward[channel]" id="reward_channel_wx_pub_qr" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
+            微信支付
+</label>        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button name="button" type="submit" class="btn btn-large btn-pay">立即支付</button>
+    </div>
+</form></div>
+
+    <div class="modal success-pay text-center hide fade" id="success-pay">
+  <div class="modal-header clearfix">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+  </div>
+  <div class="modal-body">
+    <h3><i class="icon-ok"></i>打赏成功</h3>
+    <img src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/complete-pay-25426877089eb23bd76d9d0e6aad89c1.png" alt="Complete pay">
+  </div>
+  <div class="modal-footer">
+    
+  </div>
+</div>
+
+</div>
+
+  </div>
+  <div id="flash" class="hide"></div>
+  
+  <div id="view-mode-modal" tabindex="-1" class="modal hide read-modal" aria-hidden="false" data-js-module="view-mode-modal">
+    <div class="btn-group change-background" data-toggle="buttons-radio">
+      <a class="btn btn-daytime active" data-mode="day" href="javascript:void(null);">
+        <i class="fa fa-sun-o"></i>
+</a>      <a class="btn btn-nighttime " data-mode="night" href="javascript:void(null);">
+        <i class="fa fa-moon-o"></i>
+</a>    </div>
+    <div class="btn-group change-font" data-toggle="buttons-radio">
+      <a class="btn font " data-font="font1" href="javascript:void(null);">宋体</a>
+      <a class="btn font hei active" data-font="font2" href="javascript:void(null);">黑体</a>
+    </div>
+    <div class="btn-group change-locale" data-toggle="buttons-radio">
+      <a class="btn font active" data-locale="zh-CN" href="javascript:void(null);">简</a>
+      <a class="btn font hei " data-locale="zh-TW" href="javascript:void(null);">繁</a>
+    </div>
+  </div>
+
+  
+
+  <script src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/base-ded41764c207f7ff545c28c670922d25.js"></script>
+  
+  <script src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/reading-base-0028299ec0c770293c0f07e2f338b48f.js"></script>
+  <script src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/note_show-1805bf39f59948b52870922039360dbb.js"></script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-35169517-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<div style="display:none">
+  <script src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/z_stat.php" language="JavaScript"></script><script src="./阿里面试回来，想和Java程序员谈一谈 - 简书_files/core.php" charset="utf-8" type="text/javascript"></script><a href="http://www.cnzz.com/stat/website.php?web_id=1258679142" target="_blank" title="站长统计">站长统计</a>
+</div>
+
+<script>
+  (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      if (curProtocol === 'https') {
+          bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+      }
+      else {
+          bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+      }
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+  })();
+</script>
+
+
+
+</body></html>
